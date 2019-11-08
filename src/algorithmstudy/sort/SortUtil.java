@@ -24,11 +24,19 @@ public class SortUtil {
 		System.out.println();
 	}
 	
-	public static void getExecutionTime(Sort sort, int[] arr) {
+	public static long getExecutionTime(Sort sort, int[] arr) {
 		long st = System.currentTimeMillis();
 		sort.sort(arr);
 		long et = System.currentTimeMillis();
-		System.out.println((et - st) + "ms");
+		return (et - st);
+	}
+	
+	public static void getExecutionTimeAvg(Sort sort, int[] arr, int count) {
+		long sum = 0L;
+		for(int i = 0; i < count; i++) {
+			sum += getExecutionTime(sort, arr);
+		}
+		System.out.println(sum / count + "ms");
 	}
 
 }
