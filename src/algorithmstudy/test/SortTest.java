@@ -1,9 +1,10 @@
 package algorithmstudy.test;
 
-import algorithmstudy.sort.BubbleSort;
-import algorithmstudy.sort.InsertionSort;
-import algorithmstudy.sort.SelectionSort;
-import algorithmstudy.sort.SortUtil;
+import algorithmstudy.sort.impl.BubbleSort;
+import algorithmstudy.sort.impl.InsertionSort;
+import algorithmstudy.sort.impl.QuickSort;
+import algorithmstudy.sort.impl.SelectionSort;
+import algorithmstudy.sort.util.SortUtil;
 
 public class SortTest {
 
@@ -15,10 +16,12 @@ public class SortTest {
 		InsertionSort insertionSort = new InsertionSort();
 		SelectionSort selectionSort = new SelectionSort();
 		BubbleSort bubbleSort = new BubbleSort();
+		QuickSort quickSort = new QuickSort();
 
-		SortUtil.getExecutionTimeAvg(insertionSort, arr, 100);
-		SortUtil.getExecutionTimeAvg(selectionSort, arr, 100);
-		SortUtil.getExecutionTimeAvg(bubbleSort, arr, 100);
+		//SortUtil.getExecutionTimeAvg(insertionSort, arr, 100);
+		//SortUtil.getExecutionTimeAvg(selectionSort, arr, 100);
+		//SortUtil.getExecutionTimeAvg(bubbleSort, arr, 100);
+		SortUtil.getExecutionTimeAvg(quickSort, arr, 100);
 	}
 
 }

@@ -1,4 +1,7 @@
-package algorithmstudy.sort;
+package algorithmstudy.sort.impl;
+
+import algorithmstudy.sort.Sort;
+import algorithmstudy.sort.util.SortUtil;
 
 public class BubbleSort implements Sort{
 

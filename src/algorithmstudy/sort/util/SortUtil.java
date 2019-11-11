@@ -1,4 +1,6 @@
-package algorithmstudy.sort;
+package algorithmstudy.sort.util;
+
+import algorithmstudy.sort.Sort;
 
 public class SortUtil {
 	

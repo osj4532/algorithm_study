@@ -1,4 +1,7 @@
-package algorithmstudy.sort;
+package algorithmstudy.sort.impl;
+
+import algorithmstudy.sort.Sort;
+import algorithmstudy.sort.util.SortUtil;
 
 public class InsertionSort implements Sort{
 	//삽입 정렬
