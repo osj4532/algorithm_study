@@ -19,7 +19,6 @@ public class InsertionSort implements Sort{
 				j--;
 			}
 		}
-		
 		return newArr;
 	}
 }
