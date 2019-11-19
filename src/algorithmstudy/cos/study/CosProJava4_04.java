@@ -3,7 +3,22 @@ package algorithmstudy.cos.study;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import javafx.util.Pair;
+class Pair<T, K>{
+	private T key;
+	private K value;
+	public Pair(T key, K value) {
+		this.key = key;
+		this.value = value;
+	}
+	
+	public T getKey() {
+		return this.key;
+	}
+	
+	public K getValue() {
+		return this.value;
+	}
+}
 
 class Solution4_04 {
     public static final int n = 4; 
@@ -26,7 +41,7 @@ class Solution4_04 {
         for (int i = 0; i < n; i++)
             for (int j = 0; j < n; j++)
                 if (matrix[i][j] == 0)
-                    ret.add( new Pair<Integer, Integer>(i, j) );
+                    ret.add(new Pair<Integer, Integer>(i, j) );
         return ret;
     }
     
