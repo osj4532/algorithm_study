@@ -1,6 +1,7 @@
 package algorithmstudy.test;
 
 import algorithmstudy.sort.impl.BubbleSort;
+import algorithmstudy.sort.impl.CountingSort;
 import algorithmstudy.sort.impl.HeapSort;
 import algorithmstudy.sort.impl.InsertionSort;
 import algorithmstudy.sort.impl.MergeSort;
@@ -21,13 +22,15 @@ public class SortTest {
 		QuickSort quickSort = new QuickSort();
 		MergeSort mergeSort = new MergeSort();
 		HeapSort heapSort = new HeapSort();
+		CountingSort countingSort = new CountingSort();
 		
 		SortUtil.getExecutionTimeAvg(insertionSort, arr, 100);
 		SortUtil.getExecutionTimeAvg(selectionSort, arr, 100);
 		SortUtil.getExecutionTimeAvg(bubbleSort, arr, 100);
 		SortUtil.getExecutionTimeAvg(quickSort, arr, 100);
-		SortUtil.getExecutionTimeAvg(mergeSort, arr, 100);	//10ms
-		SortUtil.getExecutionTimeAvg(heapSort, arr, 100);	//13ms
+		SortUtil.getExecutionTimeAvg(mergeSort, arr, 100);
+		SortUtil.getExecutionTimeAvg(heapSort, arr, 100);
+		SortUtil.getExecutionTimeAvg(countingSort, arr, 100);
 	}
 
 }
