@@ -1,4 +1,4 @@
-package algorithmstudy.test;
+package algorithmstudy.sort.test;
 
 import algorithmstudy.sort.impl.BubbleSort;
 import algorithmstudy.sort.impl.CountingSort;
