@@ -174,12 +174,13 @@ sort 로직
 <details>
 <summary>접기/펼치기 버튼</summary>
 <div markdown="3">
-    * DFS
-    * BFS
-    * BinaryTreeTraversal
-        - preOrder
-        - inOrder
-        - postOrder
+
+* DFS
+* BFS
+* BinaryTreeTraversal
+    - preOrder
+    - inOrder
+    - postOrder
 </div>
 </details>
 
@@ -187,8 +188,9 @@ sort 로직
 <details>
 <summary>접기/펼치기 버튼</summary>
 <div markdown="4">
-    * UnionFind
-    * Kruskal
+
+* UnionFind
+* Kruskal
 </div>
 </details>
    
@@ -197,27 +199,19 @@ sort 로직
 <details>
 <summary>접기/펼치기 버튼</summary>
 <div markdown="5">
-    ### dfs, bfs
-    * 10451
-    * 2583
 
-    ### sort
-    * 10989
-    * 1181
-    * 1431
-    * 2750
+### dfs, bfs
+* 10451
+* 2583
 
-    ### dynamic programming
-    * 11726
-    * 11727
+### sort
+* 10989
+* 1181
+* 1431
+* 2750
+
+### dynamic programming
+* 11726
+* 11727
 </div>
 </details>
-    
-   
-    
-    
-    
-    
-    
-    
-</div>
