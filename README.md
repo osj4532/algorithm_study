@@ -2,7 +2,6 @@
 
 ##### 개인적으로 알고리즘과 자료구조를 공부하기 위한 프로젝트입니다.
 
-
 ## Sort
 <details>
 <summary>접기/펼치기 버튼</summary>
@@ -159,3 +158,60 @@ sort 로직
 
 ## Cos Pro 1급 Java
 ##### 문제 출처 : https://www.ybmit.com/cos_pro/cos_pro_r_test.jsp
+
+## data structure
+<details>
+<summary>접기/펼치기 버튼</summary>
+<div markdown="2">
+    * stack
+    * queue
+    * binaryTree
+</div>
+
+## search
+<details>
+<summary>접기/펼치기 버튼</summary>
+<div markdown="3">
+    * DFS
+    * BFS
+    * BinaryTreeTraversal
+        - preOrder
+        - inOrder
+        - postOrder
+</div>
+
+## algorithm
+<details>
+<summary>접기/펼치기 버튼</summary>
+<div markdown="4">
+    * UnionFind
+    * Kruskal
+</div>
+   
+
+## Backjun quiz
+<details>
+<summary>접기/펼치기 버튼</summary>
+<div markdown="5">
+    ### dfs, bfs
+    * 10451
+    * 2583
+
+    ### sort
+    * 10989
+    * 1181
+    * 1431
+    * 2750
+
+    ### dynamic programming
+    * 11726
+    * 11727
+    
+   
+    
+    
+    
+    
+    
+    
+</div>
