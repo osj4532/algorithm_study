@@ -154,6 +154,7 @@ sort 로직
 ```
 계수 정렬은 원소간 비교하지 않고 각 원소가 몇개 등장하는지 갯수를 세서 정렬하는 알고리즘이다. 그래서 시간 복잡도는 O(N + K)로 퀵정렬, 합병 정렬에 비해 빠르다.
 하지만 모든 원소는 양의 정수여야 하며 카운팅하기 위해 다른 배열이 필요하기 때문에 공간 복잡도가 O(N + K)가 된다.
+</div>
 </details>
 
 ## Cos Pro 1급 Java
@@ -167,6 +168,7 @@ sort 로직
     * queue
     * binaryTree
 </div>
+</details>
 
 ## search
 <details>
@@ -179,6 +181,7 @@ sort 로직
         - inOrder
         - postOrder
 </div>
+</details>
 
 ## algorithm
 <details>
@@ -187,6 +190,7 @@ sort 로직
     * UnionFind
     * Kruskal
 </div>
+</details>
    
 
 ## Backjun quiz
@@ -206,6 +210,8 @@ sort 로직
     ### dynamic programming
     * 11726
     * 11727
+</div>
+</details>
     
    
     
