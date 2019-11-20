@@ -164,9 +164,10 @@ sort 로직
 <details>
 <summary>접기/펼치기 버튼</summary>
 <div markdown="2">
-    * stack
-    * queue
-    * binaryTree
+
+* stack
+* queue
+* binaryTree
 </div>
 </details>
 
