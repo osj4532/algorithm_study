@@ -192,6 +192,10 @@ sort 로직
 
 * UnionFind
 * Kruskal
+* Search Spcial Char
+* Delete All Spcial Char
+* Reverse Words Order
+* StrToInt / IntToStr
 </div>
 </details>
    
@@ -214,5 +218,16 @@ sort 로직
 ### dynamic programming
 * 11726
 * 11727
+</div>
+</details>
+
+## programmers
+<details>
+<summary>접기/펼치기 버튼</summary>
+<div markdown="6">
+
+### string
+* 60057(kakao)
+
 </div>
 </details>
