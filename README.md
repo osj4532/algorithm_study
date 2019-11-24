@@ -192,8 +192,8 @@ sort 로직
 
 * UnionFind
 * Kruskal
-* Search Spcial Char
-* Delete All Spcial Char
+* Search Special Char
+* Delete All Special Char
 * Reverse Words Order
 * StrToInt / IntToStr
 </div>
