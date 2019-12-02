@@ -22,6 +22,8 @@ public class SkillTrees {
 		int answer = skillTrees.size();
 		System.out.println(answer);
 		String tmp = "BACDE".replaceAll("[^" + skill + "]", "");
+		int t = skill.indexOf("CBA".replaceAll("[^" + skill + "]", ""));
+		System.out.println(t);
 		System.out.println("BACDE, "+tmp);
 		
 	}

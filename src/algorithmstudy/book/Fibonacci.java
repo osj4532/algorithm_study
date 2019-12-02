@@ -17,9 +17,20 @@ public class Fibonacci {
 		return dp[x] = fiboByDp(x-1) + fiboByDp(x-2);
 	}
 	
+	public static int fiboNotRecur(int x) {
+		int[] arr = new int[100];
+		arr[1] = 1;
+		arr[2] = 1;
+		for(int i = 3; i <= x; i++) {
+			arr[i] = arr[i-1] + arr[i-2];
+		}
+		return arr[x];
+	}
+	
 	public static void main(String[] args) {
 		System.out.println(fibo(10));
 		System.out.println(fiboByDp(46));
+		System.out.println(fiboNotRecur(46));
 	}
 
 }
