@@ -166,8 +166,10 @@ sort 로직
 <div markdown="2">
 
 * stack
-* queue
+* queue & queue Using two stacks
+* Thread Safe Queue
 * binaryTree
+* LinkedList
 </div>
 </details>
 
@@ -196,6 +198,10 @@ sort 로직
 * Delete All Special Char
 * Reverse Words Order
 * StrToInt / IntToStr
+* Permutation
+* Combination
+* Fibonacci
+* Reverse Pivotal Metrix
 </div>
 </details>
    
@@ -228,6 +234,18 @@ sort 로직
 
 ### string
 * 60057(kakao)
+* 17687(kakao)
+
+### array
+* 12906
+* 12910
+* 42586
+
+### calc
+* 12912
+
+### compare
+* 12915
 
 </div>
 </details>
